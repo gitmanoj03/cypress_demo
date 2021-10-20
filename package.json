@@ -1,0 +1,28 @@
+{
+    "name": "cypress_demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "node_modules\\.bin\\cypress run",
+      "lint": "eslint -c ./.eslintrc.json ./cypress/**/*.js",
+      "format": "prettier --write ./cypress/tests/**/*.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "crypto-js": "^4.1.1",
+      "cypress": "^8.6.0",
+      "cypress-grep": "^2.5.3",
+      "cypress-iframe": "^1.0.1",
+      "cypress-sql-server": "^1.0.0",
+      "eslint": "^7.16.0",
+      "eslint-plugin-cypress": "^2.11.2",
+      "prettier": "2.2.1"
+    },
+    "dependencies": {
+      "lodash": "^4.17.21",
+      "soft-assert": "^0.2.3"
+    }
+  }
+  
