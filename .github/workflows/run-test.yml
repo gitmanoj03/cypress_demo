@@ -1,4 +1,4 @@
-name: Node.js Package
+name: Running Cypress Test
 
 on:
   workflow_dispatch:
@@ -12,5 +12,5 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      - run: npm ci
+      - run: npm install
       - run: npm run test
