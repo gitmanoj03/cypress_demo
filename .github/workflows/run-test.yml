@@ -12,11 +12,11 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2  
-      - run: npm install  
-      - name: Cypress run      
-        uses: cypress-io/github-action@v2
+#       - name: Checkout
+#         uses: actions/checkout@v2  
+      - run: npm run test
+#       - name: Cypress run      
+#         uses: cypress-io/github-action@v2
 # #           start: npm start  
 #       - run: npm install
 #       - run: npx cypress verify  
